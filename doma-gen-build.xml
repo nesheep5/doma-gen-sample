@@ -9,8 +9,8 @@
   <property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:XE"/><!-- 接続先 -->
   <property name="user" value=""/><!-- ユーザー -->
   <property name="password" value=""/><!-- パスワード -->
-  <property name="entityPackageName" value="jp.paygent.uzume.amateras.db.entity"/><!-- エンティティが作成されるパッケージ -->
-  <property name="daoPackageName" value="jp.paygent.uzume.amateras.db.dao"/><!-- DAOが作成されるパッケージ -->
+  <property name="entityPackageName" value="jp.sample.db.entity"/><!-- エンティティが作成されるパッケージ -->
+  <property name="daoPackageName" value="jp.sample.db.dao"/><!-- DAOが作成されるパッケージ -->
   <property name="sqlFilePattern" value="META-INF/**/*.sql"/><!-- SQLファイルが作成されるフォルダ -->
   <property name="templateDir" value="template"/><!-- テンプレートの格納されているフォルダ -->
 
